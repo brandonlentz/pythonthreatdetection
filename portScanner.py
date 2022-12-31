@@ -1,7 +1,7 @@
 import socket
 
 # The target IP address and port range to scan
-target_ip = '127.0.0.1'
+target_ip = '192.168.0.1'
 start_port = 1
 end_port = 1024
 
