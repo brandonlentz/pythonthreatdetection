@@ -16,7 +16,7 @@ for port in range(start_port, end_port+1):
     # Try to connect to the target IP and port
     try:
         s.connect((target_ip, port))
-        print(f"Port {port} is open")
+        print("Port {port} is open")
     except:
         pass
     
